@@ -1,5 +1,3 @@
-<b>#Assignment</b><br>
-
 <b>APTs to Implement</b>
 <br>
 
@@ -19,4 +17,4 @@
     middleware.js
 
 
-🛠️ API Setup Instructions & Assumptions
+<h1>🛠️ <b>API Setup Instructions & Assumptions</b></h1>
