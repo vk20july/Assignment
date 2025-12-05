@@ -58,8 +58,8 @@ Before running or integrating with this API, the following assumptions apply:
    2. Install Dependencies<br>
         ```npm install```
 
-      3.Start the Server<br>
-          ```node filename.js```
+   3. Start the Server<br>
+      ```node filename.js```
 
 
 
