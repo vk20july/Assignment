@@ -32,6 +32,7 @@ This API handles:
 <b>Live API Base URL:</b><br>
 
 
+
 📦 <b>Prerequisites & Assumptions</b><br>
 Before running or integrating with this API, the following assumptions apply:
 
@@ -50,15 +51,15 @@ Before running or integrating with this API, the following assumptions apply:
 
 
 🔧 <b>Setup Instructions</b><br>
-1. Clone the Repository<br>
-   ```git clone https://github.com/your-org/your-api-repo.git```
-   ```cd your-api-repo```
+   1. Clone the Repository<br>
+        ```git clone https://github.com/your-org/your-api-repo.git```<br>
+        ```cd your-api-repo```
 
-2. Install Dependencies<br>
-   ```npm install```
+   2. Install Dependencies<br>
+        ```npm install```
 
-3.Start the Server<br>
-    ```node filename.js```
+   3.Start the Server<br>
+        ```node filename.js```
 
 
 
