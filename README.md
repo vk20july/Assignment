@@ -2,6 +2,7 @@
 
 <b>APTs to Implement</b>
 <br>
+
 <b>1.Register API</b><br>
     
     register.js
