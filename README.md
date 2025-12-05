@@ -36,27 +36,27 @@ This API handles:
 📦 <b>Prerequisites & Assumptions</b><br>
 Before running or integrating with this API, the following assumptions apply:
 
-<b>Environment Assumptions</b><br>
-    .You have a backend environment capable of issuing and validating JWT tokens.<br>
-    .Environment variables (e.g., ```JWT_SECRET```, database URLs) are correctly configured.<br>
-    .HTTPS is enabled in production to protect token-based authentication.
+   <b>Environment Assumptions</b><br>
+        .You have a backend environment capable of issuing and validating JWT tokens.<br>
+        .Environment variables (e.g., ```JWT_SECRET```, database URLs) are correctly configured.<br>
+        .HTTPS is enabled in production to protect token-based authentication.
 
-<b>User & Role Assumptions</b><br>
-    .User passwords are hashed before storage.<br>
-    .Roles (e.g., ```Admin```, ```User```) may be added later; default behavior assumes all users      share the same permission level unless role-based logic is implemented.
+   <b>User & Role Assumptions</b><br>
+        .User passwords are hashed before storage.<br>
+        .Roles (e.g., ```Admin```, ```User```) may be added later; default behavior assumes all users      share the same permission level unless role-based logic is implemented.
 
-<b>Token Assumptions</b><br>
-    .JWT tokens expire after 1 hour, unless otherwise configured.<br>
-    .Requests to protected endpoints must include a Bearer token in the Authorization header.
-
+   <b>Token Assumptions</b><br>
+        .JWT tokens expire after 1 hour, unless otherwise configured.<br>
+        .Requests to protected endpoints must include a Bearer token in the Authorization header.
+        
 
 🔧 <b>Setup Instructions</b><br>
    1. Clone the Repository<br>
-        ```git clone https://github.com/your-org/your-api-repo.git```<br>
-        ```cd your-api-repo```
-
+      ```git clone https://github.com/your-org/your-api-repo.git```<br>
+      ```cd your-api-repo```
+        
    2. Install Dependencies<br>
-        ```npm install```
+      ```npm install```
 
    3. Start the Server<br>
       ```node filename.js```
