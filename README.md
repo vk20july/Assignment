@@ -38,12 +38,12 @@ Before running or integrating with this API, the following assumptions apply:
 
 <b>Environment Assumptions</b><br>
     .You have a backend environment capable of issuing and validating JWT tokens.<br>
-    .Environment variables (e.g., JWT_SECRET, database URLs) are correctly configured.<br>
+    .Environment variables (e.g., ```JWT_SECRET```, database URLs) are correctly configured.<br>
     .HTTPS is enabled in production to protect token-based authentication.
 
 <b>User & Role Assumptions</b><br>
     .User passwords are hashed before storage.<br>
-    .Roles (e.g., Admin, User) may be added later; default behavior assumes all users      share the same permission level unless role-based logic is implemented.
+    .Roles (e.g., ```Admin```, ```User```) may be added later; default behavior assumes all users      share the same permission level unless role-based logic is implemented.
 
 <b>Token Assumptions</b><br>
     .JWT tokens expire after 1 hour, unless otherwise configured.<br>
@@ -58,8 +58,8 @@ Before running or integrating with this API, the following assumptions apply:
    2. Install Dependencies<br>
         ```npm install```
 
-       3.Start the Server<br>
-            ```node filename.js```
+      3.Start the Server<br>
+          ```node filename.js```
 
 
 
