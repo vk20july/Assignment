@@ -1,4 +1,4 @@
-<b>APTs to Implement</b>
+<b>APIs to Implement</b>
 <br>
 
 <b>1.Register API</b><br>
@@ -17,4 +17,7 @@
     middleware.js
 
 
-<h1>🛠️ <b>API Setup Instructions & Assumptions</b></h1>
+🛠️<b>API Setup Instructions & Assumptions</b>
+
+This document provides setup requirements, assumptions, and usage guidelines for the Authentication API defined in the API Contract. The API supports user registration, login, and JWT-based authentication, with optional role-based access.
+<br>
