@@ -1,4 +1,4 @@
-# Assignment
+<b>#Assignment</b><br>
 
 <b>APTs to Implement</b>
 <br>
@@ -17,3 +17,6 @@
 
     get.js
     middleware.js
+
+
+🛠️ API Setup Instructions & Assumptions
